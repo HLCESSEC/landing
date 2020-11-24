@@ -1,0 +1,38 @@
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Sans+Pro&display=swap');
+
+/* Importing component files */
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/button.css");
+@import url("components/center.css");
+@import url("components/avatar.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform:  uppercase;
+}
+a {
+  text-decoration: none;
+}
+
+
+h1,p{
+	color:#181818;
+}
+
+h2,h3 {
+	color:#e72325;
+}
+
+h4 {
+	opacity: 0.8;
+}
+

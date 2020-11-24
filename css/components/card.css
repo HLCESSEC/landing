@@ -1,0 +1,45 @@
+.cards {
+  	display: flex;
+	flex-wrap: wrap;
+	box-shadow: 4px 4px 10px 1px rgba(0,0,0,0.15);
+	border-radius: 6px;
+	margin: 50px;
+}
+
+.card-margin{
+	padding: 0;
+  	flex-basis: 200px;
+	flex-grow: 1;
+	margin: 70px auto;
+}
+
+.card{
+  	flex-basis: 200px;
+	flex-grow: 1;
+	margin: 10px auto;
+}
+
+.card img {
+	margin: 10px 10px;
+ 	width: 400px;
+	flex-grow: 1;
+}
+
+.card h1,h2,h3,h4,p{
+	padding: 0% 10%;
+ 	flex-grow: 1;
+}
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card img {
+    width: 360px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card img {
+    width: 180px;
+  }
+
